@@ -1,4 +1,52 @@
-﻿build/
-.vs/
-*.dll
+﻿# Build output
+build/
+dist/
+out/
+cmake-build-*/
+
+# Installers and binaries
 *.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.iobj
+*.ipdb
+
+# Visual Studio / MSVC
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+x64/
+x86/
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
+_CPack_Packages/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
